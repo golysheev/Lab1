@@ -1,0 +1,6 @@
+In this file I will write down new git commands for me:
+git init
+git commit
+git add
+git status
+git log
