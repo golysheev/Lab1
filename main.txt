@@ -1,12 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <math.h>
 int main()
 {
-    int birth = 0, cur_year = 0;
-    printf("How old are u\n");
-    scanf("%d", &birth);
-    printf("Enter current year: ");
-    scanf("%d", &cur_year);
-    printf("You are was born in %d\n", cur_year - birth);
-    return 0;
+	int x1 = 0;
+	int y1 = 0;
+	int z1 = 0;
+	int x2 = 0;
+	int y2 = 0;
+	int z2 = 0;
+	scanf("%d %d", &x1, &y1, &z1);
+	scanf("%d %d", &x2, &y2, &z2);
+	printf("%.5lf", sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2) + pow(z2 - z1, 2)));
+	return 0;
 }
